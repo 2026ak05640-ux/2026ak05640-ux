@@ -1,8 +1,7 @@
 Machine Learning Classification Project
+
 A. Problem Statement
-
 The objective of this project is to implement and compare five machine learning classification algorithms using the Bank Marketing Dataset.
-
 The project aims to predict whether a customer will subscribe to a term deposit based on customer information and previous marketing campaign details.
 
 The five classification algorithms implemented are:
@@ -12,8 +11,8 @@ Decision Tree Classifier
 K-Nearest Neighbors (KNN)
 Gaussian Naive Bayes
 Support Vector Machine (SVM)
-
 The models are evaluated using six performance metrics: Accuracy, AUC Score, Precision, Recall, F1 Score, and Matthews Correlation Coefficient (MCC).
+
 
 B. Dataset Description
 
@@ -32,11 +31,10 @@ Number of Input Features: 16
 Target Variable: y
 
 Target Classes:
-
 Yes (1): Customer subscribed to a term deposit.
 No (0): Customer did not subscribe to a term deposit.
-
 The dataset contains numerical and categorical attributes related to customers and marketing campaigns.
+
 
 Data preprocessing includes:
 
@@ -44,6 +42,7 @@ Encoding categorical variables using OneHotEncoder.
 Standardizing numerical features using StandardScaler.
 Splitting the dataset into 80% training and 20% testing data.
 Using stratified sampling to maintain the target class distribution.
+
 C. GitHub Repository Link
 
 GitHub Repository: [INSERT YOUR GITHUB REPOSITORY URL]
@@ -57,17 +56,10 @@ README documentation.
 Test dataset.
 Five saved classification models.
 Model comparison results.
+
+
 D. Models Used and Evaluation Metrics
 
-All five classification algorithms were trained and evaluated using the same dataset and test split.
-
-Model Performance Comparison
-ML Model Name	Accuracy	AUC	Precision	Recall	F1	MCC
-Logistic Regression	Actual result	Actual result	Actual result	Actual result	Actual result	Actual result
-Decision Tree	Actual result	Actual result	Actual result	Actual result	Actual result	Actual result
-KNN	Actual result	Actual result	Actual result	Actual result	Actual result	Actual result
-Naive Bayes	Actual result	Actual result	Actual result	Actual result	Actual result	Actual result
-Support Vector Machine	Actual result	Actual result	Actual result	Actual result	Actual result	Actual result
 Observations on Model Performance
 
 1. Logistic Regression
